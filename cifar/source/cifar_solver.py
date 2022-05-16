@@ -9,19 +9,15 @@ import matplotlib.pyplot as plt
 import time
 import imageio
 import utils_backdoor
-#from scipy.misc import imsave
+
 from keras.layers import Input
 from keras import Model
 from keras.preprocessing.image import ImageDataGenerator
 import copy
 import random
-from sklearn.cluster import KMeans
-from sklearn import metrics
 
 import os
 import tensorflow
-
-import pyswarms as ps
 
 import sys
 sys.path.append('../../')

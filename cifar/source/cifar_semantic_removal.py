@@ -3,7 +3,7 @@ import random
 import sys
 import numpy as np
 #np.random.seed(1337)
-from scipy.stats import norm, binom_test
+
 import time
 
 from keras import layers
@@ -16,7 +16,7 @@ import utils_backdoor
 from injection_utils import *
 import tensorflow
 from keras.models import load_model
-import cv2
+
 import tensorflow as tf
 
 from keras.preprocessing.image import ImageDataGenerator
